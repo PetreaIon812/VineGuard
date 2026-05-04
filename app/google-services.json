@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "470255784620",
+    "project_id": "vineguard-f8483",
+    "storage_bucket": "vineguard-f8483.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470255784620:android:65ee3be381ab849e76c509",
+        "android_client_info": {
+          "package_name": "com.example.vineguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTjMlzpVvifDpmBGdoZWdV8SXhm4smQCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
