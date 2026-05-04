@@ -1,0 +1,309 @@
+{
+  "ranking": [
+    {
+      "rank": 1,
+      "model": "Gradient Boosting",
+      "avg_mae": 0.02,
+      "avg_r2": 0.9545,
+      "train_time_s": 578.7,
+      "per_disease": {
+        "downy_mildew": {
+          "mae": 0.02,
+          "r2": 0.9518
+        },
+        "powdery_mildew": {
+          "mae": 0.02,
+          "r2": 0.9235
+        },
+        "botrytis": {
+          "mae": 0.02,
+          "r2": 0.943
+        },
+        "black_rot": {
+          "mae": 0.0201,
+          "r2": 0.9518
+        },
+        "phomopsis": {
+          "mae": 0.0198,
+          "r2": 0.9778
+        },
+        "anthracnose": {
+          "mae": 0.0201,
+          "r2": 0.9791
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "model": "XGBoost",
+      "avg_mae": 0.02,
+      "avg_r2": 0.9543,
+      "train_time_s": 20.3,
+      "per_disease": {
+        "downy_mildew": {
+          "mae": 0.02,
+          "r2": 0.9517
+        },
+        "powdery_mildew": {
+          "mae": 0.02,
+          "r2": 0.9233
+        },
+        "botrytis": {
+          "mae": 0.0201,
+          "r2": 0.9425
+        },
+        "black_rot": {
+          "mae": 0.0201,
+          "r2": 0.9516
+        },
+        "phomopsis": {
+          "mae": 0.0199,
+          "r2": 0.9777
+        },
+        "anthracnose": {
+          "mae": 0.0202,
+          "r2": 0.9789
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "model": "LightGBM",
+      "avg_mae": 0.02,
+      "avg_r2": 0.9543,
+      "train_time_s": 15.6,
+      "per_disease": {
+        "downy_mildew": {
+          "mae": 0.02,
+          "r2": 0.9517
+        },
+        "powdery_mildew": {
+          "mae": 0.02,
+          "r2": 0.9234
+        },
+        "botrytis": {
+          "mae": 0.02,
+          "r2": 0.9426
+        },
+        "black_rot": {
+          "mae": 0.0201,
+          "r2": 0.9516
+        },
+        "phomopsis": {
+          "mae": 0.0199,
+          "r2": 0.9777
+        },
+        "anthracnose": {
+          "mae": 0.0201,
+          "r2": 0.979
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "model": "MLP Neural Network",
+      "avg_mae": 0.0202,
+      "avg_r2": 0.9536,
+      "train_time_s": 1158.0,
+      "per_disease": {
+        "downy_mildew": {
+          "mae": 0.0203,
+          "r2": 0.9503
+        },
+        "powdery_mildew": {
+          "mae": 0.0202,
+          "r2": 0.9221
+        },
+        "botrytis": {
+          "mae": 0.0201,
+          "r2": 0.9422
+        },
+        "black_rot": {
+          "mae": 0.0202,
+          "r2": 0.9513
+        },
+        "phomopsis": {
+          "mae": 0.02,
+          "r2": 0.9774
+        },
+        "anthracnose": {
+          "mae": 0.0204,
+          "r2": 0.9785
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "model": "Decision Tree",
+      "avg_mae": 0.0204,
+      "avg_r2": 0.9525,
+      "train_time_s": 8.6,
+      "per_disease": {
+        "downy_mildew": {
+          "mae": 0.0202,
+          "r2": 0.9508
+        },
+        "powdery_mildew": {
+          "mae": 0.0203,
+          "r2": 0.9214
+        },
+        "botrytis": {
+          "mae": 0.0206,
+          "r2": 0.939
+        },
+        "black_rot": {
+          "mae": 0.0205,
+          "r2": 0.9495
+        },
+        "phomopsis": {
+          "mae": 0.0199,
+          "r2": 0.9776
+        },
+        "anthracnose": {
+          "mae": 0.0211,
+          "r2": 0.9766
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "model": "Random Forest",
+      "avg_mae": 0.0217,
+      "avg_r2": 0.9456,
+      "train_time_s": 79.9,
+      "per_disease": {
+        "downy_mildew": {
+          "mae": 0.0216,
+          "r2": 0.9439
+        },
+        "powdery_mildew": {
+          "mae": 0.0222,
+          "r2": 0.9046
+        },
+        "botrytis": {
+          "mae": 0.0214,
+          "r2": 0.9337
+        },
+        "black_rot": {
+          "mae": 0.0221,
+          "r2": 0.9413
+        },
+        "phomopsis": {
+          "mae": 0.0202,
+          "r2": 0.977
+        },
+        "anthracnose": {
+          "mae": 0.0227,
+          "r2": 0.9728
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "model": "Extra Trees",
+      "avg_mae": 0.0217,
+      "avg_r2": 0.9461,
+      "train_time_s": 51.7,
+      "per_disease": {
+        "downy_mildew": {
+          "mae": 0.0214,
+          "r2": 0.9449
+        },
+        "powdery_mildew": {
+          "mae": 0.0222,
+          "r2": 0.9046
+        },
+        "botrytis": {
+          "mae": 0.0211,
+          "r2": 0.936
+        },
+        "black_rot": {
+          "mae": 0.0218,
+          "r2": 0.9428
+        },
+        "phomopsis": {
+          "mae": 0.0201,
+          "r2": 0.9771
+        },
+        "anthracnose": {
+          "mae": 0.0233,
+          "r2": 0.9714
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "model": "Ridge Regression",
+      "avg_mae": 0.0228,
+      "avg_r2": 0.9444,
+      "train_time_s": 3.8,
+      "per_disease": {
+        "downy_mildew": {
+          "mae": 0.0219,
+          "r2": 0.9423
+        },
+        "powdery_mildew": {
+          "mae": 0.0203,
+          "r2": 0.9214
+        },
+        "botrytis": {
+          "mae": 0.0225,
+          "r2": 0.9256
+        },
+        "black_rot": {
+          "mae": 0.0202,
+          "r2": 0.9514
+        },
+        "phomopsis": {
+          "mae": 0.0262,
+          "r2": 0.9613
+        },
+        "anthracnose": {
+          "mae": 0.0259,
+          "r2": 0.9646
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "model": "LASSO Regression",
+      "avg_mae": 0.0333,
+      "avg_r2": 0.8792,
+      "train_time_s": 5.4,
+      "per_disease": {
+        "downy_mildew": {
+          "mae": 0.0268,
+          "r2": 0.9075
+        },
+        "powdery_mildew": {
+          "mae": 0.0285,
+          "r2": 0.8423
+        },
+        "botrytis": {
+          "mae": 0.0285,
+          "r2": 0.8785
+        },
+        "black_rot": {
+          "mae": 0.0381,
+          "r2": 0.8188
+        },
+        "phomopsis": {
+          "mae": 0.0291,
+          "r2": 0.9519
+        },
+        "anthracnose": {
+          "mae": 0.0486,
+          "r2": 0.8763
+        }
+      }
+    }
+  ],
+  "test_nodes": [
+    "node_08",
+    "node_01"
+  ],
+  "train_samples": 328704,
+  "test_samples": 82176,
+  "n_features": 66,
+  "n_diseases": 6
+}
