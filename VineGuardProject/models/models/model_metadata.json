@@ -1,0 +1,403 @@
+{
+  "model_type": "XGBoost MultiOutputRegressor",
+  "feature_engineering": "v3",
+  "diseases": [
+    "downy_mildew",
+    "powdery_mildew",
+    "botrytis",
+    "black_rot",
+    "phomopsis",
+    "anthracnose"
+  ],
+  "feature_cols": [
+    "temperature",
+    "humidity",
+    "wind_speed",
+    "solar_radiation",
+    "rain_15min",
+    "leafwetness_encoded",
+    "vpd",
+    "dew_point",
+    "grade_hours_24h",
+    "grade_hours_72h",
+    "temp_band_21_30_hours_24h",
+    "temp_band_15_25_hours_24h",
+    "temp_mean_24h",
+    "temp_min_24h",
+    "temp_max_24h",
+    "temp_mean_72h",
+    "humidity_mean_24h",
+    "humidity_max_24h",
+    "humidity_mean_72h",
+    "rain_sum_6h",
+    "rain_sum_24h",
+    "rain_sum_48h",
+    "rain_sum_72h",
+    "rain_sum_7d",
+    "wind_mean_24h",
+    "solar_mean_24h",
+    "solar_3d_mean",
+    "night_rh_above_90_hours",
+    "leaf_wetness_hours_nocturnal",
+    "rain_event_binary_48h",
+    "dm_sporulation_hours",
+    "dm_infection_window_binary",
+    "dm_rule_3_10_timer",
+    "dm_sporangia_survival",
+    "pm_lethal_exposure_hours",
+    "pm_favorable_band_hours_6h",
+    "pm_ascospore_release_binary",
+    "bot_rule_15_15_binary",
+    "bot_sev1_conditions",
+    "bot_berry_to_berry_risk",
+    "br_spotts_lookup_score",
+    "br_picnidium_conditions",
+    "br_primary_ascospore_risk",
+    "phom_analytis_beta_output",
+    "phom_wetness_sufficient_binary",
+    "phom_early_season_risk",
+    "anth_carisse_incubation_rate",
+    "anth_infection_window_binary",
+    "anth_leaf_age_susceptibility",
+    "mech_gubler_thomas_pm",
+    "mech_analytis_beta_phom",
+    "mech_ucsc_dm_primary",
+    "mech_ucsc_botrytis_sev1",
+    "mech_spotts_lookup_br",
+    "mech_carisse_anth_risk",
+    "mech_br_primary_risk",
+    "degree_days_base_0",
+    "degree_days_base_8",
+    "degree_days_base_10",
+    "bbch_growth_stage",
+    "growth_stage",
+    "schultz_leaf_stage",
+    "prev_season_symptoms_dm",
+    "prev_season_symptoms_pm",
+    "prev_season_symptoms_bot",
+    "onset_date_dm_logged"
+  ],
+  "n_features": 66,
+  "train_samples": 40956,
+  "test_samples": 10239,
+  "train_nodes": [
+    "pilot_14",
+    "pilot_15"
+  ],
+  "test_nodes": [
+    "pilot_14",
+    "pilot_15"
+  ],
+  "metrics": {
+    "downy_mildew": {
+      "mae": 0.0256,
+      "r2": 0.9545
+    },
+    "powdery_mildew": {
+      "mae": 0.0225,
+      "r2": 0.9259
+    },
+    "botrytis": {
+      "mae": 0.0233,
+      "r2": 0.8666
+    },
+    "black_rot": {
+      "mae": 0.0218,
+      "r2": 0.9463
+    },
+    "phomopsis": {
+      "mae": 0.0183,
+      "r2": 0.966
+    },
+    "anthracnose": {
+      "mae": 0.025,
+      "r2": 0.949
+    }
+  },
+  "avg_mae": 0.0228,
+  "avg_r2": 0.9347,
+  "xgb_params": {
+    "n_estimators": 300,
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 5,
+    "gamma": 0.1,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "objective": "reg:squarederror",
+    "eval_metric": "mae",
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbosity": 0
+  },
+  "feature_importance": [
+    {
+      "feature": "phom_early_season_risk",
+      "importance": 0.08906476773942511
+    },
+    {
+      "feature": "grade_hours_24h",
+      "importance": 0.08501272761107732
+    },
+    {
+      "feature": "mech_spotts_lookup_br",
+      "importance": 0.08133808601026733
+    },
+    {
+      "feature": "br_primary_ascospore_risk",
+      "importance": 0.06401696079410613
+    },
+    {
+      "feature": "temperature",
+      "importance": 0.058490874944254756
+    },
+    {
+      "feature": "br_spotts_lookup_score",
+      "importance": 0.055244516814127564
+    },
+    {
+      "feature": "schultz_leaf_stage",
+      "importance": 0.041537180717568845
+    },
+    {
+      "feature": "anth_infection_window_binary",
+      "importance": 0.03979937514911095
+    },
+    {
+      "feature": "temp_mean_72h",
+      "importance": 0.036809554983240865
+    },
+    {
+      "feature": "bot_sev1_conditions",
+      "importance": 0.03445224366926899
+    },
+    {
+      "feature": "onset_date_dm_logged",
+      "importance": 0.03136303803573052
+    },
+    {
+      "feature": "rain_sum_7d",
+      "importance": 0.030618814557480317
+    },
+    {
+      "feature": "growth_stage",
+      "importance": 0.02769211105381449
+    },
+    {
+      "feature": "mech_carisse_anth_risk",
+      "importance": 0.022128728315389406
+    },
+    {
+      "feature": "temp_mean_24h",
+      "importance": 0.01876742245318989
+    },
+    {
+      "feature": "mech_analytis_beta_phom",
+      "importance": 0.018034447644216318
+    },
+    {
+      "feature": "mech_ucsc_dm_primary",
+      "importance": 0.01764848876822119
+    },
+    {
+      "feature": "anth_carisse_incubation_rate",
+      "importance": 0.015960526342193287
+    },
+    {
+      "feature": "dm_rule_3_10_timer",
+      "importance": 0.013629540451802313
+    },
+    {
+      "feature": "phom_wetness_sufficient_binary",
+      "importance": 0.01231241482309997
+    },
+    {
+      "feature": "bot_rule_15_15_binary",
+      "importance": 0.011044720808664957
+    },
+    {
+      "feature": "anth_leaf_age_susceptibility",
+      "importance": 0.010877611406613141
+    },
+    {
+      "feature": "humidity_max_24h",
+      "importance": 0.010553741090310117
+    },
+    {
+      "feature": "mech_ucsc_botrytis_sev1",
+      "importance": 0.010311629817200204
+    },
+    {
+      "feature": "solar_mean_24h",
+      "importance": 0.010190417058765888
+    },
+    {
+      "feature": "solar_3d_mean",
+      "importance": 0.00862080902637293
+    },
+    {
+      "feature": "phom_analytis_beta_output",
+      "importance": 0.008128469266618291
+    },
+    {
+      "feature": "mech_gubler_thomas_pm",
+      "importance": 0.0074476289640491205
+    },
+    {
+      "feature": "degree_days_base_8",
+      "importance": 0.007271173759363592
+    },
+    {
+      "feature": "rain_sum_72h",
+      "importance": 0.007081854157149792
+    },
+    {
+      "feature": "night_rh_above_90_hours",
+      "importance": 0.006996764277573675
+    },
+    {
+      "feature": "humidity_mean_72h",
+      "importance": 0.006536097828454028
+    },
+    {
+      "feature": "rain_sum_48h",
+      "importance": 0.006395724563238521
+    },
+    {
+      "feature": "pm_favorable_band_hours_6h",
+      "importance": 0.00621769716963172
+    },
+    {
+      "feature": "bot_berry_to_berry_risk",
+      "importance": 0.005885485637312134
+    },
+    {
+      "feature": "rain_sum_24h",
+      "importance": 0.005767684740324815
+    },
+    {
+      "feature": "leaf_wetness_hours_nocturnal",
+      "importance": 0.005671771398435037
+    },
+    {
+      "feature": "degree_days_base_0",
+      "importance": 0.005622662506842365
+    },
+    {
+      "feature": "temp_band_21_30_hours_24h",
+      "importance": 0.005501439523262282
+    },
+    {
+      "feature": "br_picnidium_conditions",
+      "importance": 0.00540132539269204
+    },
+    {
+      "feature": "grade_hours_72h",
+      "importance": 0.00513900564207385
+    },
+    {
+      "feature": "temp_max_24h",
+      "importance": 0.004122624251370628
+    },
+    {
+      "feature": "temp_min_24h",
+      "importance": 0.004087854952861865
+    },
+    {
+      "feature": "dew_point",
+      "importance": 0.003997712202059726
+    },
+    {
+      "feature": "wind_mean_24h",
+      "importance": 0.0038890030118636787
+    },
+    {
+      "feature": "humidity_mean_24h",
+      "importance": 0.003500620184543853
+    },
+    {
+      "feature": "mech_br_primary_risk",
+      "importance": 0.003414978641861429
+    },
+    {
+      "feature": "vpd",
+      "importance": 0.003359259901723514
+    },
+    {
+      "feature": "dm_sporulation_hours",
+      "importance": 0.003162945775936047
+    },
+    {
+      "feature": "solar_radiation",
+      "importance": 0.0026685839014438293
+    },
+    {
+      "feature": "bbch_growth_stage",
+      "importance": 0.002424317082234969
+    },
+    {
+      "feature": "humidity",
+      "importance": 0.0021707795870800814
+    },
+    {
+      "feature": "temp_band_15_25_hours_24h",
+      "importance": 0.0020212872186675668
+    },
+    {
+      "feature": "leafwetness_encoded",
+      "importance": 0.0018747719974877934
+    },
+    {
+      "feature": "degree_days_base_10",
+      "importance": 0.0016818652511574328
+    },
+    {
+      "feature": "rain_sum_6h",
+      "importance": 0.0016395413743642469
+    },
+    {
+      "feature": "rain_event_binary_48h",
+      "importance": 0.001348763471469283
+    },
+    {
+      "feature": "dm_sporangia_survival",
+      "importance": 0.0011473749376212556
+    },
+    {
+      "feature": "pm_ascospore_release_binary",
+      "importance": 0.0009407073957845569
+    },
+    {
+      "feature": "pm_lethal_exposure_hours",
+      "importance": 0.000878519844263792
+    },
+    {
+      "feature": "dm_infection_window_binary",
+      "importance": 0.0007482342577228943
+    },
+    {
+      "feature": "wind_speed",
+      "importance": 0.0003347208645815651
+    },
+    {
+      "feature": "rain_15min",
+      "importance": 0.0
+    },
+    {
+      "feature": "prev_season_symptoms_dm",
+      "importance": 0.0
+    },
+    {
+      "feature": "prev_season_symptoms_pm",
+      "importance": 0.0
+    },
+    {
+      "feature": "prev_season_symptoms_bot",
+      "importance": 0.0
+    }
+  ],
+  "data_source": "synthetic",
+  "version": "3.0.0"
+}

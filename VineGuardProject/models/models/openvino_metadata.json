@@ -1,0 +1,16 @@
+{
+  "openvino_model": "models/openvino/cnn_vineguard.xml",
+  "onnx_model": "models/cnn_vineguard.onnx",
+  "class_names": [
+    "Bacterial Rot",
+    "Black Rot",
+    "Downy Mildew",
+    "Esca",
+    "Healthy",
+    "Leaf Blight",
+    "Powdery Mildew"
+  ],
+  "img_size": 224,
+  "framework": "OpenVINO + PyTorch",
+  "target_device": "Intel CPU"
+}
