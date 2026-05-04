@@ -11,7 +11,166 @@
   <component name="ChangeListManager">
     <list default="true" id="52b34250-4911-49a0-82ec-ce8c54f48fe3" name="Changes" comment="Application commit">
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VineGuardProject/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/compare_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/data_processor_moldova.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/data_processor_real.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/feature_engineering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/feature_importance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/firestore_upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/label_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/models/model_metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/models/openvino_metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/models/vineguard_model.joblib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/retrain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/synthetic_data_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/test_tuya.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VineGuardProject/models/tuya_to_firebase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deviceManager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/deviceManager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/migrations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/vineguard/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/androidTest/java/com/example/vineguard/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/cnn_vineguard.onnx" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/assets/cnn_vineguard.onnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/CommonFeatures/BottomNavigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/CommonFeatures/BottomNavigation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/CommonFeatures/data/RetrieveDisease.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/CommonFeatures/data/RetrieveDisease.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/CommonFeatures/data/RetrieveSensorData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/CommonFeatures/data/RetrieveSensorData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/CommonFeatures/domain/CalculateDiseaseListRisk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/CommonFeatures/domain/CalculateDiseaseListRisk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/CommonFeatures/domain/CalculateDiseaseRisk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/CommonFeatures/domain/CalculateDiseaseRisk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/CommonFeatures/domain/Disease.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/CommonFeatures/domain/Disease.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/CommonFeatures/domain/Route.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/CommonFeatures/domain/Route.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/CommonFeatures/domain/SensorData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/CommonFeatures/domain/SensorData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/DiseaseLibraryScreen/presentation/DiseaseLibraryScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/DiseaseLibraryScreen/presentation/DiseaseLibraryScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/DiseaseScreen/presentation/DiseaseScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/DiseaseScreen/presentation/DiseaseScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/domain/Disease.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/domain/Disease.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/domain/DiseaseRisk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/domain/DiseaseRisk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/domain/HomeScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/domain/HomeScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/domain/Vineyard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/domain/Vineyard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/domain/getDiseaseRisk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/domain/getDiseaseRisk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/presentation/DataMonitoring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/presentation/DataMonitoring.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/presentation/DiseasesAlert.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/presentation/DiseasesAlert.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/presentation/DiseasesAlertBox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/presentation/DiseasesAlertBox.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/presentation/SelectVineyard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/presentation/SelectVineyard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/presentation/SensorData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/presentation/SensorData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/HomeScreen/presentation/TopBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/HomeScreen/presentation/TopBar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/LogInScreen/presentation/GoogleAuthUiClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/LogInScreen/presentation/GoogleAuthUiClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/LogInScreen/presentation/LogInScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/LogInScreen/presentation/LogInScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/LogInScreen/presentation/SignInResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/LogInScreen/presentation/SignInResult.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/LogInScreen/presentation/SignInState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/LogInScreen/presentation/SignInState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/LogInScreen/presentation/SignInViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/LogInScreen/presentation/SignInViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/NHomeScreen/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/NHomeScreen/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/NHomeScreen/VineGuardViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/NHomeScreen/VineGuardViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/ProfileScreen/presentation/ProfileScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/ProfileScreen/presentation/ProfileScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/StatsScreen/presentation/CategoryIconsRow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/StatsScreen/presentation/CategoryIconsRow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/StatsScreen/presentation/DayButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/StatsScreen/presentation/DayButton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/StatsScreen/presentation/GraphData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/StatsScreen/presentation/GraphData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/StatsScreen/presentation/SensorButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/StatsScreen/presentation/SensorButton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/StatsScreen/presentation/StatsScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/StatsScreen/presentation/StatsScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/StatsScreen/presentation/TopBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/StatsScreen/presentation/TopBar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/ui/theme/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/ui/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/vineguard/ui/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/java/com/example/vineguard/ui/theme/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/anthracnose.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/anthracnose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/atmospheric.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/atmospheric.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bell.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/bell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/black_rot.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/black_rot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/book.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/botrytis.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/botrytis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dots.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/dots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/down_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/down_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/downy_mildew.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/downy_mildew.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/drop.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/drop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/exit.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/exit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/help.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/home.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/info.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/info.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/language.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/language.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/moisture.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/moisture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/not_visible.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/not_visible.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/notification.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/notification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ph.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/ph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/phomopsis.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/phomopsis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pin.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/pin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/plant.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/plant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/portrait.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/portrait.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/powdery_mildew.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/powdery_mildew.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rain.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/rain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/right_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/right_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/stats.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/stats.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sun.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/sun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/switch_camera.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/switch_camera.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/take_photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/take_photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/temperature.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/temperature.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/trenddown.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/trenddown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/trendup.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/trendup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/up_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/up_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/view.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/view.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/visible.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/visible.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/warning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/wind.png" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/drawable/wind.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/vineguard/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/app/src/test/java/com/example/vineguard/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/VineGuardProject/src/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,29 +280,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.VineGuard [signingReport].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.VineGuard:app [testDebugUnitTest].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AndroidStudioProjects/VineGuard&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "Gradle.VineGuard [signingReport].executor": "Run",
+    "Gradle.VineGuard:app [testDebugUnitTest].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "proiect-nou",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/AndroidStudioProjects/VineGuard",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\AndroidStudioProjects\VineGuard\app\src\main\assets" />
